@@ -8,7 +8,9 @@ namespace VariabelTal
         {
             int a = 10;
             a++;
-            Console.WriteLine("Hello World!");
+            a--;
+            a += 20;
+            Console.WriteLine($"tal = {a}");
         }
     }
 }
