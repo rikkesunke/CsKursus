@@ -11,6 +11,7 @@ namespace VariabelTal
             a--;
             a += 20;
             Console.WriteLine($"tal = {a}");
+
         }
     }
 }
