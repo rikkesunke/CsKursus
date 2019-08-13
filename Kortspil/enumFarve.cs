@@ -4,11 +4,9 @@ using System.Text;
 
 namespace Kortspil
 {
-    enum Kulør
+    enum farve
     {
-        hjerter,
-        spar,
-        ruder,
-        klør
+        rød,
+        sort
     }
 }

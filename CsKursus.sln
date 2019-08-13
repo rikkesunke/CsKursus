@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatoOpgave", "DatoOpgave\Da
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kortspil", "Kortspil\Kortspil.csproj", "{5EDD7146-A94D-4C7B-9419-E10B9F73BB00}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10tabel", "10tabel\10tabel.csproj", "{51119CF7-1BF3-4DB9-A9A5-A3F6685D63CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{5EDD7146-A94D-4C7B-9419-E10B9F73BB00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EDD7146-A94D-4C7B-9419-E10B9F73BB00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EDD7146-A94D-4C7B-9419-E10B9F73BB00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51119CF7-1BF3-4DB9-A9A5-A3F6685D63CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51119CF7-1BF3-4DB9-A9A5-A3F6685D63CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51119CF7-1BF3-4DB9-A9A5-A3F6685D63CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51119CF7-1BF3-4DB9-A9A5-A3F6685D63CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
