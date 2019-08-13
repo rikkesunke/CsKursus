@@ -6,12 +6,14 @@ namespace Regnemaskine
     {
         static void Main(string[] args)
         {
-            double res;
+            double res, t1 = 0, t2 = 0;
+            string tal1s = "0";
+            string tal2s = "0";
 
             Console.WriteLine("Velkommen til regnemaskinen - vi kan + , - , * og / ");
             Console.WriteLine("Indtast første tal - tryk ENTER");
 
-            string tal1s = Console.ReadLine();
+            tal1s = Console.ReadLine();
 
             Console.WriteLine("Indtast regnetegn - tryk ENTER");
 
@@ -19,10 +21,26 @@ namespace Regnemaskine
 
             Console.WriteLine("Indtast andet tal - tryk ENTER");
 
-            string tal2s = Console.ReadLine();
+            tal2s = Console.ReadLine();
 
-            double t1 = Convert.ToDouble(tal1s);
-            double t2 = Convert.ToDouble(tal2s);
+            try
+            {
+                t1 = Convert.ToDouble(tal1s);
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("tal1 er ikke et tal " + tal1s);
+            }
+
+            try
+            {
+                t2 = Convert.ToDouble(tal2s);
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("tal2 er ikke et tal " + tal2s);
+            }
+
 
             switch (tegn)
             {
