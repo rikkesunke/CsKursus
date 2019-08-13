@@ -21,6 +21,7 @@ namespace _10tabel
                     // write laver ikke linje skift efter der er skrevet til output dvs at i dette tilfælde bliver tallene skrevet ud efter hinanden
                     // hvilket jo faktisk svarer til en konkatenering bare lavet meget mere simpelt
 
+
                     // padleft sætter blanke ind før det udregnede tal på venstre side således at tallene kommer til at stå over hinanden
                     Console.Write(tal.PadLeft(5));
                 }
