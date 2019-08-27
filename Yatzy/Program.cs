@@ -7,16 +7,16 @@ namespace Yatzy
         static void Main(string[] args)
         {
             
-            Terning t1 = new Terning();
-            t1.udskriv();
-            t1.ryst();
-            t1.udskriv();
+            //Terning t1 = new Terning();
+            //t1.udskriv();
+            //t1.ryst();
+            //t1.udskriv();
 
-            Console.WriteLine("snyde terning");
-            Terning t2 = new Terning(true);
-            t2.udskriv();
-            t2.ryst();
-            t2.udskriv();
+            //Console.WriteLine("snyde terning");
+            //Terning t2 = new Terning(true);
+            //t2.udskriv();
+            //t2.ryst();
+            //t2.udskriv();
 
             Console.WriteLine("brug af bæger");
 
@@ -28,35 +28,4 @@ namespace Yatzy
                        
         }
     }
-    class Bæger
-    {
-        private Terning[] terninger = new Terning[5];
-
-        public Bæger()
-        {
-            for (int i = 0; i < 5; i++)
-            {
-                terninger[i] = new Terning();
-                ryst();
-            }
-        }
-
-        public void ryst()
-        {
-            for (int i = 0; i < 5; i++)
-            {
-                terninger[i].ryst();
-            }
-        }
-
-        public void skriv()
-        {
-            for (int i = 0; i < 5; i++)
-            {
-                terninger[i].udskriv();
-                Console.WriteLine();
-            }
-        }
-    }
-
 }
